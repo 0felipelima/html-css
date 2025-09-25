@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Thin.woff2') format('woff2'),
+        url('Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+     src: url('Poppins-Black.woff2') format('woff2'),
+        url('Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;  src: url('Poppins-BoldItalic.woff2') format('woff2'),
+        url('Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+body{
+    background-color: #000452;
+    text-align: justify;
+    font-family: 'Poppins';
+    margin: 0;
+    
+}
+header{
+    padding: 1px;
+    background-color: #001E52;
+    color: #ffffff;
+    text-align: center;
+}
+nav{
+    
+    display: inline-block;
+    color: #DEF1E8;
+}
+a{
+    text-decoration: none;
+    color: #DEF1E8;
+}
+a#calango2::before{
+    content: "|";
+}
+a#calango2::after{
+    content: "|";
+}
+a:hover{
+    background-color: #000452;
+    border-bottom: 3px solid #DEF1E8;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.sessao{
+   background-color: #ffffff;
+    border-radius:5px;
+}
+   
+.titulos{
+    margin: auto;
+}
+section#noticias{
+    margin: 5px;
+    padding: 5px;
+}
+section#novidades{
+    margin:5px;
+    padding: 5px;
+
+}
+section#semana{
+    margin: 5px;
+    padding: 5px;
+
+}
+section#semana:hover{
+    width: 100em;
+    height: 20em;
+    background-color: #2D61B5;
+    color: white;
+    box-shadow:  10px 10px #000000af;
+
+}
+section#novidades:hover{
+
+    width: 100em;
+    height: 20em;
+    color: white;
+    background-color: #2D61B5;
+    box-shadow:  10px 10px #000000af;
+}
+section#noticias:hover{
+
+    
+    width: 100em;
+    height: 20em;
+    color: white;
+    background-color: #2D61B5;
+    box-shadow:  10px 10px #000000af;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color:#001E52;
+}
+.rodape{
+    
+    text-align: center;
+}

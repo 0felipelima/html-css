@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-BlackItalic.woff2') format('woff2'),
+        url('Poppins-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBold.woff2') format('woff2'),
+        url('Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Black.woff2') format('woff2'),
+        url('Poppins-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('Poppins-BoldItalic.woff2') format('woff2'),
+        url('Poppins-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-LightItalic.woff2') format('woff2'),
+        url('Poppins-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('Poppins-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Italic.woff2') format('woff2'),
+        url('Poppins-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLight.woff2') format('woff2'),
+        url('Poppins-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('Poppins-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ThinItalic.woff2') format('woff2'),
+        url('Poppins-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Thin.woff2') format('woff2'),
+        url('Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-MediumItalic.woff2') format('woff2'),
+        url('Poppins-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+:root{
+    --verde:#003420;
+    --fonteprincipal: 'Poppins'
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #003420;
+}
+/*cabeçalho*/
+header {
+    padding: 2px;
+    background-image: linear-gradient(to top,#001a1860, #005217);
+
+}
+
+div#titulo {
+    color: white;
+    text-align: center;
+}
+div#links{
+    margin-left: 10px;
+}
+nav {
+    padding-top:7px;
+    padding-left: 7px;
+    padding-right: 10px;
+    background-color: #001a18e3;
+    display: inline;
+    border-radius: 10px 10px 0px 0px;
+    transition-duration: 450ms ;
+
+}
+a {
+    text-align: center;
+    padding: 5px;
+    color: #69D1A9;
+    text-decoration: none;
+}
+
+nav:hover {
+    padding-top: 10px;
+    background-color: #36ffee;
+    border-bottom: 2px solid #ffffff;
+    transition-duration: 450ms ;
+    
+}
+a:hover{
+    transition-duration: 450ms ;
+    color: #ffffff;
+}
+a:active{
+    font-size: small;
+    color: #69D1A9;
+}
+/*fim do cabeçalho*/
+
+/*Menu principal*/
+main {
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    min-width: 200px;
+    max-width: 800px;
+    height: auto;
+}
+h2#mascote{
+    text-align: left;
+}
+.universal{
+    text-align: left;
+}
+.marcado{
+    color: #001413;
+    font-weight: bold;
+}
+.criadores{
+    color: #001413;
+    font-weight: 600;
+}
+.criadores:hover{
+    color: #005217;
+
+}
+p{
+    text-indent: 30px;
+}
+h2#primeira{
+    padding: 5px;
+    color: white;
+    min-width: 320px;
+    max-width: 700px;
+    background-color: #002925;
+}
+h2#novo{
+    padding: 5px;
+    min-width: 320px;
+    max-width: 700px;
+    background-color: #002925;
+    color: white;
+}
+
+h2#aprender{
+    padding: 5px;
+    background-color: #002925;
+    border-radius: 9px 9px 0 0;
+}
+div#youtube{
+padding: 20%;
+background-color: #005217;
+position: relative;
+}
+div#youtube > iframe{
+position: absolute;
+left: 5%;
+top: 10%;
+width:90%;
+height: 80%;
+}
+/*extra*/
+div#extra {
+    
+    background-color: #005217;
+    border-radius: 9px;
+    color: rgb(247, 247, 247);
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: auto;
+
+}
+/* fim do extra*/
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #005217;
+    color: white;
+}

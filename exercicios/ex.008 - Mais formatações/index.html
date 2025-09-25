@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code><mark style="background-color: rgb(201, 133, 7);">document.getElementById('teste')</mark></code> é escrito em linguagem JavaScript.</p>
+    <!--Comando <code> para adicionar comandos de programação no site e ficart com as letras monoespaçadas e de fácil entendimento, porém não organiza com a identação-->
+        <pre>
+            <code>
+num = int(input('digite um número'))
+if num % 2 == 0;
+print(f'0 número {num}é PAR')
+else:
+print(f'0 número {num} é IMPAR')
+print('fim do programa')
+            </code>
+        </pre>
+        <!--Envelopando <pre> com <code> ele mescla e adiciona as identações do código conforme está escrito (Selecionando o texto e segurando shift e usando tab é possível recuar todo o texto para organizar melhor com o pre-->
+    <h2>Citações simples</h2>
+    <p>Como diria o pai do meu amigo: <mark style="background-color: rgb(87, 176, 255);">"O computador é um burro muito rápido."</mark><br>
+    <q>O computador é um burro muito rápido. </q> (Aqui usando com a tag &lt;Q&gt;) <!--Para citação é melhor usar a tag <Q> para dar sentido-->
+    </p>
+    <h2>Citações completas</h2>
+    <p>Segundo Matthias Rohrig no seu livro:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Capoeira/C5C7VP0ollYC?hl=pt-PT&gbpv=0">
+        ro-Brazilian slaves, the marginalized and the underclasses in Brazilian society, capoeira is now a mainstream sport, taught in Brazilian schools and practised by a range of social classes around the world. Some advocates now seek Olympic recognition for Capoeira.
+This apparent change in the meaning and purpose of Capeoira has led to conflicts between traditionalists, who view capoeira as their heritage descended from the maroons, a weapon to be used against the injustice and repression; and reformers, who wish to see Capoeira develop as an international sport.
+Capoeira: The History of Afro-Brazilian Martial Art explores Capoeira as a field of confrontation where the different struggles that divide Brazilian society are played out. It contains both the first comprehensive English language review of archive and contemporary literature relating to Capoeira, as well as the first scholarly account of Capoeira's history and development.
+    </blockquote>
+<!--A diferença de citações com uma linha e em blocos são muito importantes dentro do html por isso usamos a tag <blockquote> para isso, e podemos usar dentro dessa tag o "cite=" para que o site saiba de onde é essa informação ex. - <blockquote cite= "www.livros.com.br"-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper text markup Language"><mark style="background-color: rgb(5, 211, 159);">HTML</mark></abbr> e <abbr title="Cascanding style sheet"><mark style="background-color: rgb(17, 153, 135);">CSS</mark></abbr>. E tá muito divertido</p>
+<!--Usando a tag <ABBR> podemos escrever o significado de uma abreviação e quando passarmos o mouse em cima aparecerá o nome da abreviação completa-->
+    <h2>Texto invertido</h2>
+    <p>
+        <bdo dir="rtl">Se liga na bobagem </bdo>
+        <!--Basicamente a sigla bdo te deixa escrever as coisas invertidas sendo R de direita para a esquerda e L de esquerda para direita-->
+    </p>
+</body>
+</html>

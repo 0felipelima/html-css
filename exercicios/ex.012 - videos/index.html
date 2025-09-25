@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em html</title>
+</head>
+<body>
+    <h1>Videos hospedados localmente</h1>
+    <p>Oia o video</p>
+    <video src="videos/arquivoleve.mp4" width="700px" poster="imagem/MOCKUPBLU.jpg" controls loop></video>
+    <video width="300px" controls>
+        <source src="videos/arquivoleve.mp4" type="video/mp4">
+        <!--Tipos de arquivo aceitaveis .mp4 .mp4v .webm .ogg-->
+        <!--Os videos acima estão hospedados no meu servidor-->
+        <!--Caso o cliente peça para hospedar os videos no servidor proprio dentro do site, avisar que vai pesar no bolso já que vai consumir muita banda de internet dentro do proprio servidor-->
+    </video>
+    <h1>Incorporação de videos externos</h1>
+    <p>Vamos ver agora os videos incorporados de maneira externa</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=TSXjBf7Y83ocbxH3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Infelizmente não será possível nós vermos aqui</p>
+   <!--É possivel por videos hospedados do youtube aqui, basta copiar e colar no incorporar, mas não consegui usar-->
+
+</body>
+</html>

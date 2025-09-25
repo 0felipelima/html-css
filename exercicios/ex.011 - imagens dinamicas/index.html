@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+<h1>Midias dinâmicas</h1>
+<p>Tente abrir esse o site em vários dispositivos diferentes</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/m.png" type="image/png">
+    <img src="imagens/g.png" alt="Foto grande">
+    <!--Tag <picture> para dizer que vai ter uma imagem ali
+        tag source permite que voce defina o tamanho maximo de tela e mude a imagem conforme o dispositivo em que você está vendo, não esquecer de por no "max-width" 50 pixels a mais do que a imagem, sempre por as menores imagens em cima com o source, e sempre colocar o tipo de imagem
+        <source media="(max-width: 750px)" srcset="imagens/p.png type="image/PNG
+        -->
+</picture>
+<h1>Reproduzindo audios</h1>
+<p>Vamos ver os audios rodando</p>
+<audio src="audios/On The Flip - The Grey Room _ Density & Time.mp3"></audio>
+<!--Dessa forma o audio não roda pois faltam alguns parametros-->
+<audio src="audios/On The Flip - The Grey Room _ Density & Time.mp3" controls autoplay></audio>
+<!--Para funcionar as músicas é necessário adicionar os parametros controls autoplay-->
+<!--Formatos de muúsica para navegadores MP3, WAV, OGG-->
+<audio>
+    <source src="audios/On The Flip - The Grey Room _ Density & Time.mp3" type="audio/mpeg">
+    <source src="audios/On The Flip - The Grey Room _ Density & Time.mp3" type="audio/ogg--">
+    <source src="audios/On The Flip - The Grey Room _ Density & Time.mp3" type="audio/wav">
+</audio>
+
+    <p>Caso não funcione clique abaixo para baixar a música</p>
+    <a href="audios/On The Flip - The Grey Room _ Density & Time.mp3">Download musica</a>
+<!--Os sources servem para todos os tipos de midia incluindo musicas videos, as auternativas acima servem para navegadores que não tem algum tipo de audio compativel, e caso não funcione deixei um link para baixar a música-->
+</body>
+</html>

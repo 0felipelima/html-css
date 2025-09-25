@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBold.woff2') format('woff2'),
+        url('Poppins-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+        body{
+            font-family:'Poppins';
+        }
+        a{
+            text-decoration: none;
+            color: rgb(0, 78, 52);
+        }
+        a:visited{
+            color: rgb(5, 138, 0);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(0, 49, 4);
+        }
+        a:active{
+            color: rgba(0, 9, 29, 0.897);
+        }
+        .after::before{
+            content:'→' ;
+        }
+        .after::after{
+            content: '←';
+        }
+        
+    </style>
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <h1>Vamos aprender sobre Pseudo-elementos</h1>
+    <h2>Exercicio com personalização de links</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/alanzoka" target="_blank" rel="external">Canal alanzoka</a>
+        <li><a href="https://www.youtube.com/watch?v=SS2ev3_dzRU" target="_blank" rel="external">Canal bistecone</a>
+        <li><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external">Canal curso em video</a>
+        <li><a href="https://www.netflix.com/browse" target="_blank" rel="external">Netflix</a>
+    </ul>
+    <h2>Pseudo-elementos</h2>
+    <p>Pseudo-elementos são elementos ações que interferem diretamente no conteúdo</p>
+    <ul>
+        <li><a class="after" href="https://www.youtube.com/watch?v=yuPJj3P7jxM" target="_blank" rel="external">Seijinho</a>
+        <li><a class="after" href="https://www.youtube.com/watch?v=_G-kL_P_ADY&t=1922s" target="_blank" rel="external">Calango</a>
+       <li><a class="after" href="https://www.youtube.com/watch?v=EU1s3zb4EM8" target="_blank" rel="external">Balela</a>
+    </ul>
+</body>
+</html>

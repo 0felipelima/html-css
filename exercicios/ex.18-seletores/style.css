@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('Poppins-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+/*
+html é "id" em css é "#"
+html é "class" em css é "."
+*/
+body{
+    text-align: justify;
+    font-family: 'Poppins';
+    background-color: rgb(0, 58, 55);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(2, 236, 225);
+}
+h2#um{
+    text-align: center;
+}
+p#textoum{
+    text-align: center;
+}
+h2#dois{
+    text-align: right;
+}
+p#textodois{
+    text-align: right;
+    
+}
+h2#quatro{
+    margin: auto;
+    width:300px;
+    height: 80px;
+    background-color: rgb(0, 68, 23);
+    text-align: center;
+}
+p#textoquatro{
+    text-align: center;
+}
+p{
+ color: rgb(0, 167, 158);;   
+}
+.principal{
+    color: rgb(255, 225, 186);
+    background-color: rgb(0, 119, 93);
+    padding: 20px;
+    width:110px;
+    height: 20px;
+}
+.secundario{
+    color: rgb(255, 187, 0);
+    background-color: rgb(0, 71, 56);
+    padding: 20px;
+    width:150px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 36, 14, 0.5);
+}
+h1#titulo{
+    text-shadow: 10px 10px 10px rgba(0, 36, 14, 0.5);
+    text-decoration: underline;
+}

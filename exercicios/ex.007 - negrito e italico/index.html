@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase temos um termo em <b>negrito</b></p>
+    <!--Usando a forma não semantica usando a tag <b>-->
+    <p>Nesta frase temos um termo em <strong>negrito de forma semântica</strong></p>
+    <!--<b> tem sentido de forma, em Strong é forte, tem destaque-->
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase vamos ter um exemplo de <i>itálico</i> (Não semântico) </p>
+    <!--Dentro do html 5, usando a tag <i> são não semânticas-->
+    <p>agora vamos usar outro <em>exemplo de itálico</em> (Semântico)</p>
+    <!--Dentro do html 5, usando a tag <Em> é semnântico<-->
+        <!--Formas = css, Sentido = Html-->
+    <h2>Texto Marcado</h2>
+    
+     <p>Podemos criar <mark style="background-color: rgb(255, 155, 97);">textos marcados</mark> usando a tag MARK.</p> <!--Para paramentros especificos o mais correto é adicionar o css(estilo) dentro da tag, assim como demonstrado acima-->
+    <p>Outro exemplo de marcação, vamos ver o nome <mark>marcado</mark></p>
+    <!--Como pode ver, o exemplo do baixo não herda as carcteristicas de cima, ele fica marcado na cor padrão, caso haja muitas nmarcações e deseje alterar todos o mais recomendado é por a tag <STYLE> dentro do head e marcar a tag quie deseja-->
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small></p>
+   <!--termos obsoletos acima pois são de formatação e não de sentido-->
+   <h2>Texto deletado</h2>
+   <p>Podemos marcar um <del>texto excluído</del> para que seja lido mas não considerado</p>
+   <h2>Texto inserido</h2>
+   <p><ins>texto inserido</ins></p><!--Tag semantica-->
+   <p><u>texto inserido com a tag U</u></p><!--texto não semantico-->
+   <h2>Texto sobreescrito</h2>
+   <p>para inserir coisas do tipo 2<sup>3</sup>+3</p><!--Textinho pequeno em cima <sup>-->
+   <h2>Texto subreescrito</h2>
+   <p>Para inserir coisas do tipo H<sub>2</sub>0</p><!--Textinho pequeno embaixo <sub>-->
+</body>
+</html>

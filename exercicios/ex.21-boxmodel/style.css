@@ -1,0 +1,75 @@
+@font-face {
+font-family: 'Poppins';
+src: url('Poppins-Bold.woff2') format('woff2'),
+    url('Poppins-Bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Thin.woff2') format('woff2'),
+        url('Poppins-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: 'Poppins';
+}
+h1{
+    padding: 5px;
+    color:#7E7EB3 ;
+    background-color:#0B0B34; 
+    width: 150px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: #23235E;
+    border-radius: 5px;
+    margin: auto;
+}
+h1:hover{
+     padding: 5px;
+    color:#ffffff ;
+    background-color: #23235E;
+    width: 150px;
+    border-width: 5px;
+    border-color:#0B0B34; 
+    border-radius: 5px;
+}
+a{
+    color: #7E7EB3;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
+h1:active{
+    border-style: inset;
+}
+h1#button{
+    padding: 5px;
+    color:#CEDED4;
+    background-color: #003312;
+    width: 150px;
+    border-width: 5px;
+    border-color:#498960;
+    border-radius: 5px;
+}
+h1#button:active{
+    
+    padding: 5px;
+    color:#003312;
+    background-image: linear-gradient(to right, #003312,#498960);
+    width: 150px;
+    border-width: 5px;
+    border-color:#CEDED4;
+    border-radius: 5px;
+}
+a#buton{
+    text-decoration:none ;
+    color: #CEDED4;
+}
+a#buton:active{
+    color: #003312;
+}
