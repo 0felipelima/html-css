@@ -166,19 +166,19 @@ body {
     background-color: #003420;
 }
 /*cabeçalho*/
-header {
-    min-width: 40%;
-    max-width: 100%;
-    padding: 2px;
-    background-image: linear-gradient(to top,#001a1860, #005217);
-
-}
 
 div#titulo {
-    color: white;
+
+    margin: 0;
+    padding: 30px;
+    min-width: 416px;
+    max-width: 100%;
     text-align: center;
+    color: white;
+    background-image: linear-gradient(to top,#001a1860, #005217);
 }
 div#links{
+    margin-top: -30px;
     margin-left: 10px;
 }
 nav {
@@ -186,7 +186,7 @@ nav {
     padding-left: 7px;
     padding-right: 10px;
     background-color: #001a18e3;
-    display: inline;
+    display: inline-block;
     border-radius: 10px 10px 0px 0px;
     transition-duration: 450ms ;
 
@@ -222,7 +222,7 @@ main {
     text-align: center;
     margin: auto;
     min-width: 400px;
-    max-width: 800px;
+    max-width: 600px;
     height: auto;
 }
 h2#mascote{
@@ -297,6 +297,8 @@ ul {
 footer {
     text-align: center;
     padding: 2px;
+    min-width: 416px;
+    max-width: 100%;
     background-color: #005217;
     color: white;
 }
