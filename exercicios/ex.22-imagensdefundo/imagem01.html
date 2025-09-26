@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+
+        .quadrado {
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            display: inline-block;
+
+            background-color: rgba(0, 83, 83, 0.158);
+
+        }
+
+        .quadrado:hover {
+            box-shadow: 10px 10px 10px 0px black;
+            transition-duration: .5s;
+        }
+
+        .quadrado:active {
+            box-shadow:inset 10px 10px 10px 0px black;
+            transition-duration: .5s;
+        }
+
+        div#q1 {
+            background-color: aqua;
+        }
+
+        div#q2 {
+            background-image: radial-gradient(blue, rgb(0, 0, 26));
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern001.png);
+        }
+    </style>
+    <title>Imagens de fundo</title>
+</head>
+
+<body>
+    <div id="q1" class="quadrado">
+
+    </div>
+    <div id="q2" class="quadrado">
+
+    </div>
+    <div id="q3" class="quadrado">
+
+    </div>
+</body>
+
+</html>
