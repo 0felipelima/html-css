@@ -205,9 +205,6 @@ nav:hover {
     transition-duration: 450ms ;
     
 }
-source{
-    width: 100px;
-}
 a:hover{
     transition-duration: 450ms ;
     color: #ffffff;
