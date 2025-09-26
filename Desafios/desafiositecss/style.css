@@ -166,13 +166,14 @@ body {
     background-color: #003420;
 }
 /*cabeçalho*/
-
+header{
+    min-width: 416px;
+    max-width: 100%;
+}
 div#titulo {
 
     margin: 0;
     padding: 30px;
-    min-width: 416px;
-    max-width: 100%;
     text-align: center;
     color: white;
     background-image: linear-gradient(to top,#001a1860, #005217);
