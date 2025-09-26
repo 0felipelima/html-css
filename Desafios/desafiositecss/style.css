@@ -167,7 +167,7 @@ body {
 }
 /*cabeçalho*/
 header {
-    min-width: 320px;
+    min-width: 30%;
     max-width: 100%;
     padding: 2px;
     background-image: linear-gradient(to top,#001a1860, #005217);
