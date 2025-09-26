@@ -222,7 +222,7 @@ main {
     background-color: #ffffff;
     text-align: center;
     margin: auto;
-    min-width: 320px;
+    min-width: 400px;
     max-width: 800px;
     height: auto;
 }
