@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        thead{
+            background-color: rgb(0, 55, 104);
+            color: white;
+        }
+        td{
+            text-align: center;
+        }
+        .numero{
+            text-align: right;
+        }
+        th, td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        tbody{
+            background-color: rgb(238, 238, 238)
+        }
+        tfoot{
+        background-color: rgb(0, 55, 104);
+        color: white;
+        }
+                a{
+            display: block;
+            margin-top: 50px ;
+            padding: 5px;
+            width: 100px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: rgb(3, 0, 43);
+            background-color: rgb(0, 132, 255);
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.486);
+        }
+        a:active{
+            display: block;
+            margin-top: 50px ;
+            padding: 2px;
+            width: 100px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: rgba(19, 130, 204, 0.993);
+            box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.486);
+        }
+    </style>
+    <title>Tabelas grandes</title>
+</head>
+<body>
+    <!--Hierarquia de tabelas grandes
+    table
+        thead
+            tr,td,th
+        tbody
+             tr,td,th
+        tfooter
+             tr,td,th
+
+    -->
+    <h1>uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 340 430</td>
+            </tr>
+            <tr>
+            <td>Minas Gerais</td>
+            <td class="numero">45 340 430</td>
+            </tr>
+            <tr>
+            <td>Ceará</td>
+            <td class="numero">45 340 430</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="numero"><strong>9000000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="tabelas.html">Tabela anterior</a>
+</body>
+</html>
