@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        caption{
+        caption {
             background-color: rgba(0, 21, 49, 0.938);
             color: #ffffff;
             font-size: 1.5em;
             padding: 10px;
         }
-        table{
+
+        table {
+            position: relative;
             border-collapse: collapse;
             width: 500px;
         }
-        thead{
+
+        thead {
+
             background-color: rgb(0, 55, 104);
             color: white;
         }
-        td{
+
+        thead>tr>th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(0, 55, 104);
+        }
+
+        td {
             text-align: center;
         }
-        .numero{
+
+        .numero {
             text-align: right;
         }
-        th, td{
+
+        th,
+        td {
             padding: 10px;
             border: 1px solid black;
         }
-        tbody{
+
+        tbody {
             background-color: rgb(238, 238, 238)
         }
-        tfoot{
-        background-color: rgb(0, 55, 104);
-        color: white;
+
+        tbody tr:nth-child(odd) {
+            background-color: rgb(141, 204, 255);
         }
-                a{
+
+        tfoot {
+            background-color: rgb(0, 55, 104);
+            color: white;
+        }
+
+        a {
             display: block;
-            margin-top: 50px ;
+            margin-top: 50px;
             padding: 5px;
             width: 100px;
             border-radius: 4px;
@@ -46,9 +68,10 @@
             background-color: rgb(0, 132, 255);
             box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.486);
         }
-        a:active{
+
+        a:active {
             display: block;
-            margin-top: 50px ;
+            margin-top: 50px;
             padding: 2px;
             width: 100px;
             border-radius: 4px;
@@ -57,10 +80,10 @@
             background-color: rgba(19, 130, 204, 0.993);
             box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.486);
         }
-
     </style>
     <title>Tabelas grandes</title>
 </head>
+
 <body>
     <!--Hierarquia de tabelas grandes
     caption-titulo da tabela-caption
@@ -81,7 +104,7 @@
             <tr>
                 <th scope="col">Estado</th>
                 <th scope="col">População</th>
-                
+
             </tr>
         </thead>
         <tbody>
@@ -90,12 +113,12 @@
                 <td class="numero">45 340 430</td>
             </tr>
             <tr>
-            <td>Minas Gerais</td>
-            <td class="numero">45 340 430</td>
+                <td>Minas Gerais</td>
+                <td class="numero">45 340 430</td>
             </tr>
             <tr>
-            <td>Ceará</td>
-            <td class="numero">45 340 430</td>
+                <td>Ceará</td>
+                <td class="numero">45 340 430</td>
             </tr>
             <tr>
                 <td>Bahia</td>
@@ -105,6 +128,55 @@
                 <td>Minas Gerais</td>
                 <td class="numero">78098099</td>
             </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">78098099</td>
+            </tr>
+
         </tbody>
         <tfoot>
             <tr>
@@ -114,5 +186,76 @@
         </tfoot>
     </table>
     <a href="tabelas.html">Tabela anterior</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, amet suscipit, quidem adipisci sint possimus
+        minus aliquid non consequatur modi exercitationem. Excepturi ducimus assumenda eligendi ipsa et cumque quisquam
+        natus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem neque, dolorum error autem odit
+        odio quae mollitia veritatis eum. Officia aliquam reiciendis eius est quae temporibus ab maiores voluptates
+        explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repellendus assumenda eos quidem.
+        Voluptas dolores animi quos optio, praesentium sed perferendis accusantium nobis commodi voluptate! Voluptas
+        atque sint consectetur mollitia!</p>
 </body>
+
 </html>
