@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        iframe{
+            display: block;
+            width: 300px;
+            height: 150px;
+        }
+
+    </style>
     <title>Iframes</title>
 </head>
+
 <body>
+    <!-- Tamanho padrão de iframe - 300x150px
+     Nem todos os dispositivos são compatíveis com iframes então é sempre interessante dentro da tag por um link ou um aviso para que o cliente ter uma alternativa 
+     -->
     <h1>Testando Iframes</h1>
-  <iframe src="https://www.youtube.com/watch?v=GWULnkTnapM&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT&index=2" frameborder="0"></iframe>
+    <iframe src="https://getbootstrap.com/docs/5.3/getting-started/introduction/" frameborder="0">
+        <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"> Bootstrap</a>
+
+    </iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GWULnkTnapM?si=diaiSUBhotzL4Cdf"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 </body>
+
 </html>
