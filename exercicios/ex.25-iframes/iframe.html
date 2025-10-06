@@ -5,20 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        iframe{
+
+        body{
+            height: 96vh;
+            color: white;
+            background-image: radial-gradient(rgb(16, 74, 182), rgb(0, 20, 51));
+        }
+        iframe {
             display: block;
             width: 300px;
             height: 150px;
             margin: auto;
             margin-bottom: 30px;
         }
-        iframe:hover{
+
+        iframe:hover {
             transition-duration: .490s;
             width: 500px;
             height: 300px;
         }
-     
+        a{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.925);
+            padding: 10px;
+            background-color: rgb(0, 76, 138);
+            border-radius: 4px;
+        }
+        a:hover{
+            transition-duration: .237s;
+            padding: 13px;
+            background-color: rgb(0, 31, 56);
+            border: 2px solid white;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.637);
+        }
+        a:active{
+            padding: 10px;
+            background-color: rgb(0, 50, 92);
+            box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.637);
+        }
     </style>
+    
     <title>Iframes</title>
 </head>
 
@@ -37,7 +63,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+    <a href="iframe2.html">Próxima página</a>
 </body>
 
 </html>
