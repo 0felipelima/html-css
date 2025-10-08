@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+   background-image: radial-gradient(rgb(210, 210, 255), blue);
+}
+main{
+    position: relative;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(1, 0, 17);
+}
+
+#iphone{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%) ;
+
+    height:500px;
+    width: 311px;
+    height: 627px;
+    background-image: url(../pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
