@@ -10,13 +10,13 @@ html,body{
 }
 
 body{
-   background-image: radial-gradient(rgb(210, 210, 255), blue);
+   background-image: radial-gradient(rgb(8, 8, 110), rgb(13, 0, 43));
 }
 main{
     position: relative;
     height: 100vh;
     position: relative;
-    background-color: rgb(1, 0, 17);
+   
 }
 
 #iphone{
@@ -33,4 +33,13 @@ main{
     background-attachment: fixed;
 
 
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left:22px;
+
+    width: 269px;
+    height: 476px;
 }
