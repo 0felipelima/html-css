@@ -17,21 +17,33 @@
         
         }
     </style> -->
-    <title>Meu Segundo formulário</title>
+    <title>Meu Terceiro formulário</title>
 </head>
 <body>
-    <h1>Meu Segundo formulario</h1>
+    <h1>Meu Terceiro formulario</h1>
     <form action="cadastro.php" autocomplete="on" method="post">
 
         <p>
             <label for="isu">Usuário</label>
             <input type="text" name="usu" id="isu" required minlength="5" maxlength="20" placeholder="Nome Completo" autocomplete="username">
         </p>
-        <p>
-            <label for="isenha">Senha</label>
-            <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="15" >
-        </p>
 
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" required id="imedia" min="1" max="10" placeholder="Média">
+
+        </p>
+        <p><label for="imes">De qual mês foi essa média?</label><br>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <label for="idata">Data de Prova</label><br>
+            <input type="date" name="data" id="idata">
+        </p>
+        <p>
+            <label for="ihora">Hora</label><br>
+            <input type="time" name="Hora" id="ihora">
+        </p>
         <p>
             <input type="submit" value="Enviar">
 
@@ -42,7 +54,8 @@
     </form>
 
     <a href="index.html">Segundo formulário</a>
-    <a href="form3.html">Terceiro formulário</a>
+    <a href="form2.html">Terceiro formulário</a>
+
 
 </body>
 </html>
