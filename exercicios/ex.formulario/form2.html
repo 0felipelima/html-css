@@ -17,19 +17,19 @@
         
         }
     </style> -->
-    <title>Meu primeiro formulário</title>
+    <title>Meu Segundo formulário</title>
 </head>
 <body>
-    <h1>Meu primeiro formulario</h1>
-    <form action="cadastro.php" autocomplete="off" method="post">
+    <h1>Meu Segundo formulario</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
 
         <p>
             <label for="isu">Usuário</label>
-            <input type="text" name="usu" id="isu" required minlength="5" maxlength="10">
+            <input type="text" name="usu" id="isu" required minlength="5" maxlength="20" placeholder="Nome Completo" autocomplete="username">
         </p>
         <p>
             <label for="isenha">Senha</label>
-            <input type="password" name="Senha" id="isenha" required minlength="8">
+            <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="15" >
         </p>
 
         <p>
