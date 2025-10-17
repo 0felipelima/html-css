@@ -23,14 +23,25 @@
     <h1>Meu primeiro formulario</h1>
     <form action="cadastro.php" autocomplete="off" method="post">
 
-        <p><label for="inome">nome</label> 
-            <input type="text" name="nome" id="inome"></p>
-        <p><label for="isobrenome">sobrenome</label> 
-            <input type="text" name="sobrenome" id="isobrenome"></p>
-        <p>Submit <input type="submit" value="Enviar" id="Enviar"></p>
+        <p>
+            <label for="isu">Usuário</label>
+            <input type="text" name="usu" id="isu" required minlength="5" maxlength="10">
+        </p>
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="Senha" id="isenha" required minlength="8">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+
+            <input type="reset" value="Deletar">
+        </p>
+
 
     </form>
 
-    <a href="form2.html">Segundo formulário</a>
+    <a href="index.html">Segundo formulário</a>
+
 </body>
 </html>
