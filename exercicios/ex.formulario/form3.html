@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        form{
+        form {
             padding: 10px;
             background-color: rgb(0, 42, 78);
-            width: 300px;
+            width: 480px;
             margin: auto;
             color: aliceblue;
         }
-        #Enviar{
+
+        #Enviar {
             color: rgb(0, 90, 90);
             border-radius: 3px;
-        
+
         }
     </style>
     <title>Meu Terceiro formulário</title>
 </head>
+
 <body>
     <h1>Meu Terceiro formulario</h1>
     <form action="cadastro.php" method="post">
@@ -27,7 +30,8 @@
             <legend>Aprendi algo sobre input</legend>
             <p>
                 <label for="isu">Usuário</label>
-                <input type="text" name="usu" id="isu" required minlength="5" maxlength="20" placeholder="Nome Completo" autocomplete="username">
+                <input type="text" name="usu" id="isu" required minlength="5" maxlength="20" placeholder="Nome Completo"
+                    autocomplete="username">
             </p>
             <p>
                 <label for="imedia">Média</label>
@@ -52,39 +56,75 @@
                 <label for="itel">Telefone</label><br>
                 <input type="tel" name="tel" id="itel">
             </p>
-             </fieldset>
+        </fieldset>
 
 
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Deletar">
-            </p>
-       
-            <fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Deletar">
+        </p>
 
-               <legend>Esportes</legend>
-                    <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label><br>
-                    <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label>
-            </fieldset>
+        <fieldset>
 
-            <fieldset>
+            <legend>Esportes</legend>
+            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label><br>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label>
+        </fieldset>
 
-                <legend>Sexo</legend>
-                <input type="radio" name="sex" id="imas" value="M"><label for="imas">Machismo</label>
-                <input type="radio" name="sex" id="ife" value="F"><label for="ife">Feminismo</label>
-            </fieldset>
+        <fieldset>
 
-            <fieldset>
-                <legend>Cores</legend>
-                <p><label for="icor">Cor</label>
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="imas" value="M"><label for="imas">Machismo</label>
+            <input type="radio" name="sex" id="ife" value="F"><label for="ife">Feminismo</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Cores</legend>
+            <p><label for="icor">Cor</label>
                 <input type="color" name="cor" id="icor">
-                </p>
-                <p><label for="inivel">Satisfação</label>
+            </p>
+            <p><label for="inivel">Satisfação</label>
                 <input type="range" name="nivel" id="inivel" min="0" max="100" value="0">
-                </p>
-                <p><label for="iarq"></label></p>
-                <input type="file" name="arq" id="iarq">
-            </fieldset>
+            </p>
+            <p><label for="iarq"></label></p>
+            <input type="file" name="arq" id="iarq">
+        </fieldset>
+
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="Estado" id="iestado">
+
+                <option value="" selected>Selecione</option>
+                <optgroup label="Estado">
+                    <option value="CE">Ceará</option>
+                    <option value="RN"> Rio Grande do norte</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MT">Mato Grosso</option>
+                </optgroup>
+
+
+                <optgroup label="Cidade">
+                    <option value="For">Fortaleza</option>
+                    <option value="Al">Alvorada</option>
+                </optgroup>
+            </select>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="ilist">
+            <datalist id="ilist">
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+                <option>Metalurgico</option>
+                <option>Pedreiro</option>
+
+            </datalist>
+
+        <p><label for="imen">mensagem</label>
+            <textarea name="men" id="imen" minlength="10" maxlength="100" cols="10" rows="3"
+                placeholder="Deixe sua mensagem"></textarea>
+        </p>
+        </p>
+        </p>
     </form>
 
     <a href="index.html">Segundo formulário</a>
@@ -92,4 +132,5 @@
 
 
 </body>
+
 </html>
