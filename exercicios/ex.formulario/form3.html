@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <style>
+    <style>
         form{
             padding: 10px;
             background-color: rgb(0, 42, 78);
@@ -16,12 +16,12 @@
             border-radius: 3px;
         
         }
-    </style> -->
+    </style>
     <title>Meu Terceiro formulário</title>
 </head>
 <body>
     <h1>Meu Terceiro formulario</h1>
-    <form action="cadastro.php" autocomplete="on" method="get">
+    <form action="cadastro.php" method="post">
 
         <fieldset>
             <legend>Aprendi algo sobre input</legend>
@@ -72,6 +72,18 @@
                 <legend>Sexo</legend>
                 <input type="radio" name="sex" id="imas" value="M"><label for="imas">Machismo</label>
                 <input type="radio" name="sex" id="ife" value="F"><label for="ife">Feminismo</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Cores</legend>
+                <p><label for="icor">Cor</label>
+                <input type="color" name="cor" id="icor">
+                </p>
+                <p><label for="inivel">Satisfação</label>
+                <input type="range" name="nivel" id="inivel" min="0" max="100" value="0">
+                </p>
+                <p><label for="iarq"></label></p>
+                <input type="file" name="arq" id="iarq">
             </fieldset>
     </form>
 
