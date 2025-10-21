@@ -21,7 +21,7 @@
 </head>
 <body>
     <h1>Meu Terceiro formulario</h1>
-    <form action="cadastro.php" autocomplete="on" method="post">
+    <form action="cadastro.php" autocomplete="on" method="get">
 
         <fieldset>
             <legend>Aprendi algo sobre input</legend>
@@ -60,7 +60,19 @@
                 <input type="reset" value="Deletar">
             </p>
        
+            <fieldset>
 
+               <legend>Esportes</legend>
+                    <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label><br>
+                    <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Sexo</legend>
+                <input type="radio" name="sex" id="imas" value="M"><label for="imas">Machismo</label>
+                <input type="radio" name="sex" id="ife" value="F"><label for="ife">Feminismo</label>
+            </fieldset>
     </form>
 
     <a href="index.html">Segundo formulário</a>
